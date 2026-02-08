@@ -49,8 +49,9 @@ Verify the operational status of the local neural node.
 ```python
 import requests
 
+# Use https://illumination-ai.pro for production
 response = requests.post(
-    "http://localhost:3000/api/v1/chat/completions",
+    "https://illumination-ai.pro/api/v1/chat/completions",
     json={
         "model": "illumination-neural-v4",
         "messages": [{"role": "user", "content": "Hello!"}]
@@ -62,7 +63,7 @@ print(response.json())
 
 ### cURL
 ```bash
-curl -X POST http://localhost:3000/api/v1/chat/completions \
+curl -X POST https://illumination-ai.pro/api/v1/chat/completions \
   -H "Authorization: Bearer YOUR_KEY" \
   -H "Content-Type: application/json" \
   -d '{"model":"illumination-neural-v4","messages":[{"role":"user","content":"Hello"}]}'
