@@ -48,7 +48,7 @@
 4. **Launch Neural Node**
    ```bash
    npm run dev
-   # Portal Active on http://localhost:3000
+   # Portal Active on https://illumination-ai.pro
    ```
 
 ---
@@ -91,8 +91,8 @@ php src/test/php/test_api.php
 
 ## 📚 Documentation
 - [SKILL.md](./SKILL.md) - Agentic Skill Definition
-- [Whitepaper](./public/Whitepaper_v1.html)
-- [API Reference](./public/api-reference.html) - Full Endpoint Documentation
+- [Whitepaper](./Whitepaper.md)
+- [API Reference](./API_REFERENCE.md) - Full Endpoint Documentation
 
 ---
 
